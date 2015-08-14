@@ -3272,8 +3272,8 @@
     "DotNetEx.Reactive/1.0.7.0": {
       "sha512": "gycfx58mmfJNpn3+JAKaVXGBf9o2Xl1tyrW6V437cZe2sBSRTxXyrn7rFQWSFQavp5HOOvkoIAYsE62OsOkYHg==",
       "files": [
-        "DotNetEx.Reactive.1.0.7.0.nupkg",
-        "DotNetEx.Reactive.1.0.7.0.nupkg.sha512",
+        "DotNetEx.Reactive.1.0.7.nupkg",
+        "DotNetEx.Reactive.1.0.7.nupkg.sha512",
         "DotNetEx.Reactive.nuspec",
         "lib/net451/DotNetEx.Reactive.dll",
         "lib/net451/DotNetEx.Reactive.pdb",
@@ -3730,26 +3730,26 @@
       "serviceable": true,
       "sha512": "ZZ+qD3dd+kj92/Qd3/auMwOQNiEb0T7UNskyTHy7UQNGbvTKRLgAvh8o3+CntKryIaRv8sjmoQ8Zm1YOKiREcg==",
       "files": [
-        "Microsoft.AspNet.SignalR.Messaging.3.0.0-beta5.nupkg",
-        "Microsoft.AspNet.SignalR.Messaging.3.0.0-beta5.nupkg.sha512",
-        "Microsoft.AspNet.SignalR.Messaging.nuspec",
         "lib/dnx451/Microsoft.AspNet.SignalR.Messaging.dll",
         "lib/dnx451/Microsoft.AspNet.SignalR.Messaging.xml",
         "lib/dnxcore50/Microsoft.AspNet.SignalR.Messaging.dll",
-        "lib/dnxcore50/Microsoft.AspNet.SignalR.Messaging.xml"
+        "lib/dnxcore50/Microsoft.AspNet.SignalR.Messaging.xml",
+        "Microsoft.AspNet.SignalR.Messaging.3.0.0-beta5.nupkg",
+        "Microsoft.AspNet.SignalR.Messaging.3.0.0-beta5.nupkg.sha512",
+        "Microsoft.AspNet.SignalR.Messaging.nuspec"
       ]
     },
     "Microsoft.AspNet.SignalR.Server/3.0.0-beta5": {
       "serviceable": true,
       "sha512": "0cSHaFNHirLgIu/3xh2jlacviexvJjb1UPAU9A3Kjupg72ietr2SA9Y7eCCE11RLMbF1mUS5oa0I5soKltDoFg==",
       "files": [
-        "Microsoft.AspNet.SignalR.Server.3.0.0-beta5.nupkg",
-        "Microsoft.AspNet.SignalR.Server.3.0.0-beta5.nupkg.sha512",
-        "Microsoft.AspNet.SignalR.Server.nuspec",
         "lib/dnx451/Microsoft.AspNet.SignalR.Server.dll",
         "lib/dnx451/Microsoft.AspNet.SignalR.Server.xml",
         "lib/dnxcore50/Microsoft.AspNet.SignalR.Server.dll",
-        "lib/dnxcore50/Microsoft.AspNet.SignalR.Server.xml"
+        "lib/dnxcore50/Microsoft.AspNet.SignalR.Server.xml",
+        "Microsoft.AspNet.SignalR.Server.3.0.0-beta5.nupkg",
+        "Microsoft.AspNet.SignalR.Server.3.0.0-beta5.nupkg.sha512",
+        "Microsoft.AspNet.SignalR.Server.nuspec"
       ]
     },
     "Microsoft.AspNet.StaticFiles/1.0.0-beta5": {
@@ -4169,9 +4169,6 @@
     "Newtonsoft.Json/6.0.6": {
       "sha512": "w26uZNyCG5VeoKiEOJ4+9/o8koSofLKwHl7WLreIcp0U6r57L7WiRXmjp8MTKFw6dYNZ9AE0lw69WYbIhUsU9Q==",
       "files": [
-        "Newtonsoft.Json.6.0.6.nupkg",
-        "Newtonsoft.Json.6.0.6.nupkg.sha512",
-        "Newtonsoft.Json.nuspec",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
         "lib/net35/Newtonsoft.Json.dll",
@@ -4186,91 +4183,94 @@
         "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
         "lib/portable-net45+wp80+win8+wpa81+aspnetcore50/Newtonsoft.Json.dll",
         "lib/portable-net45+wp80+win8+wpa81+aspnetcore50/Newtonsoft.Json.xml",
+        "Newtonsoft.Json.6.0.6.nupkg",
+        "Newtonsoft.Json.6.0.6.nupkg.sha512",
+        "Newtonsoft.Json.nuspec",
         "tools/install.ps1"
       ]
     },
     "Rx-Core/2.2.5": {
       "sha512": "DfWVTfW6tvRkkqpnRHKxPIvaRZyDJGADuqrE6J2nwejOQbLRWi0rNUwXkViDWz++25BGDy3iRE5OE6Dv8mJxYQ==",
       "files": [
+        "lib/net40/System.Reactive.Core.dll",
+        "lib/net40/System.Reactive.Core.XML",
+        "lib/net45/System.Reactive.Core.dll",
+        "lib/net45/System.Reactive.Core.XML",
+        "lib/portable-net40+sl5+win8+wp8/System.Reactive.Core.dll",
+        "lib/portable-net40+sl5+win8+wp8/System.Reactive.Core.XML",
+        "lib/portable-net45+winrt45+wp8+wpa81/System.Reactive.Core.dll",
+        "lib/portable-net45+winrt45+wp8+wpa81/System.Reactive.Core.XML",
+        "lib/portable-win81+wpa81/System.Reactive.Core.dll",
+        "lib/portable-win81+wpa81/System.Reactive.Core.XML",
+        "lib/portable-windows8+net45+wp8/System.Reactive.Core.dll",
+        "lib/portable-windows8+net45+wp8/System.Reactive.Core.XML",
+        "lib/sl5/System.Reactive.Core.dll",
+        "lib/sl5/System.Reactive.Core.XML",
+        "lib/windows8/System.Reactive.Core.dll",
+        "lib/windows8/System.Reactive.Core.XML",
+        "lib/windowsphone71/System.Reactive.Core.dll",
+        "lib/windowsphone71/System.Reactive.Core.XML",
+        "lib/windowsphone8/System.Reactive.Core.dll",
+        "lib/windowsphone8/System.Reactive.Core.XML",
         "Rx-Core.2.2.5.nupkg",
         "Rx-Core.2.2.5.nupkg.sha512",
-        "Rx-Core.nuspec",
-        "lib/net40/System.Reactive.Core.XML",
-        "lib/net40/System.Reactive.Core.dll",
-        "lib/net45/System.Reactive.Core.XML",
-        "lib/net45/System.Reactive.Core.dll",
-        "lib/portable-net40+sl5+win8+wp8/System.Reactive.Core.XML",
-        "lib/portable-net40+sl5+win8+wp8/System.Reactive.Core.dll",
-        "lib/portable-net45+winrt45+wp8+wpa81/System.Reactive.Core.XML",
-        "lib/portable-net45+winrt45+wp8+wpa81/System.Reactive.Core.dll",
-        "lib/portable-win81+wpa81/System.Reactive.Core.XML",
-        "lib/portable-win81+wpa81/System.Reactive.Core.dll",
-        "lib/portable-windows8+net45+wp8/System.Reactive.Core.XML",
-        "lib/portable-windows8+net45+wp8/System.Reactive.Core.dll",
-        "lib/sl5/System.Reactive.Core.XML",
-        "lib/sl5/System.Reactive.Core.dll",
-        "lib/windows8/System.Reactive.Core.XML",
-        "lib/windows8/System.Reactive.Core.dll",
-        "lib/windowsphone71/System.Reactive.Core.XML",
-        "lib/windowsphone71/System.Reactive.Core.dll",
-        "lib/windowsphone8/System.Reactive.Core.XML",
-        "lib/windowsphone8/System.Reactive.Core.dll"
+        "Rx-Core.nuspec"
       ]
     },
     "Rx-Interfaces/2.2.5": {
       "sha512": "FKtG2QfMIeUcfB7r3a89VoAiszX3DTvYETkpC6U0FzWpxRK/mcHyzYOsniDfag+NsDG0P1k1c8yNSefXKp3t2A==",
       "files": [
+        "lib/net40/System.Reactive.Interfaces.dll",
+        "lib/net40/System.Reactive.Interfaces.XML",
+        "lib/net45/System.Reactive.Interfaces.dll",
+        "lib/net45/System.Reactive.Interfaces.XML",
+        "lib/portable-net40+sl5+win8+wp8/System.Reactive.Interfaces.dll",
+        "lib/portable-net40+sl5+win8+wp8/System.Reactive.Interfaces.XML",
+        "lib/portable-net45+winrt45+wp8+wpa81/System.Reactive.Interfaces.dll",
+        "lib/portable-net45+winrt45+wp8+wpa81/System.Reactive.Interfaces.XML",
+        "lib/portable-win81+wpa81/System.Reactive.Interfaces.dll",
+        "lib/portable-win81+wpa81/System.Reactive.Interfaces.XML",
+        "lib/portable-windows8+net45+wp8/System.Reactive.Interfaces.dll",
+        "lib/portable-windows8+net45+wp8/System.Reactive.Interfaces.XML",
+        "lib/sl5/System.Reactive.Interfaces.dll",
+        "lib/sl5/System.Reactive.Interfaces.XML",
+        "lib/windows8/System.Reactive.Interfaces.dll",
+        "lib/windows8/System.Reactive.Interfaces.XML",
+        "lib/windowsphone71/System.Reactive.Interfaces.dll",
+        "lib/windowsphone71/System.Reactive.Interfaces.XML",
+        "lib/windowsphone8/System.Reactive.Interfaces.dll",
+        "lib/windowsphone8/System.Reactive.Interfaces.XML",
         "Rx-Interfaces.2.2.5.nupkg",
         "Rx-Interfaces.2.2.5.nupkg.sha512",
-        "Rx-Interfaces.nuspec",
-        "lib/net40/System.Reactive.Interfaces.XML",
-        "lib/net40/System.Reactive.Interfaces.dll",
-        "lib/net45/System.Reactive.Interfaces.XML",
-        "lib/net45/System.Reactive.Interfaces.dll",
-        "lib/portable-net40+sl5+win8+wp8/System.Reactive.Interfaces.XML",
-        "lib/portable-net40+sl5+win8+wp8/System.Reactive.Interfaces.dll",
-        "lib/portable-net45+winrt45+wp8+wpa81/System.Reactive.Interfaces.XML",
-        "lib/portable-net45+winrt45+wp8+wpa81/System.Reactive.Interfaces.dll",
-        "lib/portable-win81+wpa81/System.Reactive.Interfaces.XML",
-        "lib/portable-win81+wpa81/System.Reactive.Interfaces.dll",
-        "lib/portable-windows8+net45+wp8/System.Reactive.Interfaces.XML",
-        "lib/portable-windows8+net45+wp8/System.Reactive.Interfaces.dll",
-        "lib/sl5/System.Reactive.Interfaces.XML",
-        "lib/sl5/System.Reactive.Interfaces.dll",
-        "lib/windows8/System.Reactive.Interfaces.XML",
-        "lib/windows8/System.Reactive.Interfaces.dll",
-        "lib/windowsphone71/System.Reactive.Interfaces.XML",
-        "lib/windowsphone71/System.Reactive.Interfaces.dll",
-        "lib/windowsphone8/System.Reactive.Interfaces.XML",
-        "lib/windowsphone8/System.Reactive.Interfaces.dll"
+        "Rx-Interfaces.nuspec"
       ]
     },
     "Rx-Linq/2.2.5": {
       "sha512": "UTeCIu3cWPExxmTzdiVq7SalqTBhUaomBTaAC9LpYPoAopjlFwA3hjVWXoLkGlDc/44wqJemJuEwFP00KphiFg==",
       "files": [
+        "lib/net40/System.Reactive.Linq.dll",
+        "lib/net40/System.Reactive.Linq.XML",
+        "lib/net45/System.Reactive.Linq.dll",
+        "lib/net45/System.Reactive.Linq.XML",
+        "lib/portable-net40+sl5+win8+wp8/System.Reactive.Linq.dll",
+        "lib/portable-net40+sl5+win8+wp8/System.Reactive.Linq.XML",
+        "lib/portable-net45+winrt45+wp8+wpa81/System.Reactive.Linq.dll",
+        "lib/portable-net45+winrt45+wp8+wpa81/System.Reactive.Linq.XML",
+        "lib/portable-win81+wpa81/System.Reactive.Linq.dll",
+        "lib/portable-win81+wpa81/System.Reactive.Linq.XML",
+        "lib/portable-windows8+net45+wp8/System.Reactive.Linq.dll",
+        "lib/portable-windows8+net45+wp8/System.Reactive.Linq.XML",
+        "lib/sl5/System.Reactive.Linq.dll",
+        "lib/sl5/System.Reactive.Linq.XML",
+        "lib/windows8/System.Reactive.Linq.dll",
+        "lib/windows8/System.Reactive.Linq.XML",
+        "lib/windowsphone71/System.Reactive.Linq.dll",
+        "lib/windowsphone71/System.Reactive.Linq.XML",
+        "lib/windowsphone8/System.Reactive.Linq.dll",
+        "lib/windowsphone8/System.Reactive.Linq.XML",
         "Rx-Linq.2.2.5.nupkg",
         "Rx-Linq.2.2.5.nupkg.sha512",
-        "Rx-Linq.nuspec",
-        "lib/net40/System.Reactive.Linq.XML",
-        "lib/net40/System.Reactive.Linq.dll",
-        "lib/net45/System.Reactive.Linq.XML",
-        "lib/net45/System.Reactive.Linq.dll",
-        "lib/portable-net40+sl5+win8+wp8/System.Reactive.Linq.XML",
-        "lib/portable-net40+sl5+win8+wp8/System.Reactive.Linq.dll",
-        "lib/portable-net45+winrt45+wp8+wpa81/System.Reactive.Linq.XML",
-        "lib/portable-net45+winrt45+wp8+wpa81/System.Reactive.Linq.dll",
-        "lib/portable-win81+wpa81/System.Reactive.Linq.XML",
-        "lib/portable-win81+wpa81/System.Reactive.Linq.dll",
-        "lib/portable-windows8+net45+wp8/System.Reactive.Linq.XML",
-        "lib/portable-windows8+net45+wp8/System.Reactive.Linq.dll",
-        "lib/sl5/System.Reactive.Linq.XML",
-        "lib/sl5/System.Reactive.Linq.dll",
-        "lib/windows8/System.Reactive.Linq.XML",
-        "lib/windows8/System.Reactive.Linq.dll",
-        "lib/windowsphone71/System.Reactive.Linq.XML",
-        "lib/windowsphone71/System.Reactive.Linq.dll",
-        "lib/windowsphone8/System.Reactive.Linq.XML",
-        "lib/windowsphone8/System.Reactive.Linq.dll"
+        "Rx-Linq.nuspec"
       ]
     },
     "System.Collections/4.0.10-beta-23019": {
@@ -4303,12 +4303,12 @@
       "serviceable": true,
       "sha512": "MOlivTIeAIQPPMUPWIIoMCvZczjFRLYUWSYwqi1szu8QPyeIbsaPeI+hpXe1DzTxNwnRnmfYaoToi6kXIfSPNg==",
       "files": [
+        "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.xml",
         "License-Stable.rtf",
         "System.Collections.Immutable.1.1.36.nupkg",
         "System.Collections.Immutable.1.1.36.nupkg.sha512",
-        "System.Collections.Immutable.nuspec",
-        "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll",
-        "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.xml"
+        "System.Collections.Immutable.nuspec"
       ]
     },
     "System.Collections.NonGeneric/4.0.0-beta-23019": {
@@ -4476,16 +4476,16 @@
     "System.Dynamic.Runtime/4.0.10-beta-23019": {
       "sha512": "yhXko8+R8fy0RERn6xQltYEhChBNyGEQgntwjHqNBc3x1M7wvg+Ye72Bh1QVQfnMIXZ0tG8XSrQs8hJe8KjYjg==",
       "files": [
-        "System.Dynamic.Runtime.4.0.10-beta-23019.nupkg",
-        "System.Dynamic.Runtime.4.0.10-beta-23019.nupkg.sha512",
-        "System.Dynamic.Runtime.nuspec",
-        "runtime.json",
         "lib/DNXCore50/System.Dynamic.Runtime.dll",
         "lib/net46/_._",
         "lib/netcore50/System.Dynamic.Runtime.dll",
         "ref/dotnet/System.Dynamic.Runtime.dll",
         "ref/net46/_._",
-        "runtimes/win8-aot/lib/netcore50/System.Dynamic.Runtime.dll"
+        "runtime.json",
+        "runtimes/win8-aot/lib/netcore50/System.Dynamic.Runtime.dll",
+        "System.Dynamic.Runtime.4.0.10-beta-23019.nupkg",
+        "System.Dynamic.Runtime.4.0.10-beta-23019.nupkg.sha512",
+        "System.Dynamic.Runtime.nuspec"
       ]
     },
     "System.Globalization/4.0.10-beta-23019": {
@@ -4733,12 +4733,12 @@
       "serviceable": true,
       "sha512": "CAhcY0EJFLXfxo5YRV/ytkTOeTBho8zKjLu+9LvEI5NIVmanp1yMUzYQdjvXpHbyV0Qt1KuLXcTCc9t9FVH3Wg==",
       "files": [
+        "lib/portable-net45+win8/System.Reflection.Metadata.dll",
+        "lib/portable-net45+win8/System.Reflection.Metadata.xml",
         "License-Stable.rtf",
         "System.Reflection.Metadata.1.0.21.nupkg",
         "System.Reflection.Metadata.1.0.21.nupkg.sha512",
-        "System.Reflection.Metadata.nuspec",
-        "lib/portable-net45+win8/System.Reflection.Metadata.dll",
-        "lib/portable-net45+win8/System.Reflection.Metadata.xml"
+        "System.Reflection.Metadata.nuspec"
       ]
     },
     "System.Reflection.Primitives/4.0.0-beta-23019": {

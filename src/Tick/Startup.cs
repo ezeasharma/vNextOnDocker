@@ -21,7 +21,9 @@ public class Startup
     
     public void ConfigureServices(IServiceCollection services)
     {
-        services.AddMvc();
+          services.AddMvc();
+          //services.AddSignalR();
+         
          services.AddSignalR(options =>
             {
                 options.Hubs.EnableDetailedErrors = true;
