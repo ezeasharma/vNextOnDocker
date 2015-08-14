@@ -12,10 +12,10 @@ namespace Tick.Rx
 {
 	public class StreamProvider
     {
-        private readonly ViewHub _hub;
-        public StreamProvider(ViewHub hub)
+        private readonly Action<ViewResponse> _publish;
+        public StreamProvider(Action<ViewResponse> publish)
         {
-            _hub = hub;
+           _publish = publish;
         }
         
         public void Initialize()
@@ -45,7 +45,7 @@ namespace Tick.Rx
 
             valuations.Subscribe(r =>
             {
-                _hub.Notify(new ViewResponse(){Id = r.Symbol, Amount = r.Amount, Price = r.Price, MarketValue = r.MarketValue});
+                _publish (new ViewResponse(){Id = r.Symbol, Amount = r.Amount, Price = r.Price, MarketValue = r.MarketValue});
             });
         }
     }

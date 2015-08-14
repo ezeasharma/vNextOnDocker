@@ -18,9 +18,7 @@ $(function () {
         rowTemplate = '<tr data-Id="{Id}"><td>{Id}</td><td>{Amount}</td><td>{Price}</td><td>{MarketValue}</td></tr>';
 
     function init() {
-        ticker.server.getAllStocks().done(function (stocks) {
             $stockTableBody.empty();
-        });
     }
 
     // Add a client-side hub method that the server will call
@@ -38,5 +36,5 @@ $(function () {
 
     // Start the connection
     $.connection.hub.logging = true;
-    $.connection.hub.start({ transport: activeTransport, jsonp: isJsonp }).done(init);
+    $.connection.hub.start().done(init);
 });

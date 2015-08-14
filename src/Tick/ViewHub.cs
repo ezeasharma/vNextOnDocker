@@ -14,34 +14,25 @@ namespace Tick.Hubs
          [HubName("viewHub")]
         public class ViewHub : Hub
 	{
-                private readonly IViewRepository _viewRepo;
-                private readonly StreamProvider _streamProvider;
-        	public ViewHub(IViewRepository viewRepository)
+                private StreamProvider _streamProvider;
+        	public ViewHub()
         	{
-                        _viewRepo = viewRepository;
+                        Console.WriteLine("hub created!");
                         //Task.Factory.StartNew(Publish);
-                        _streamProvider = new StreamProvider(this);
-                        _streamProvider.Initialize();
+                        if (_streamProvider == null)
+                        {
+                                _streamProvider = new StreamProvider((res =>{
+                                        Clients.All.updateStockPrice(new []{res});
+                                }));
+                                _streamProvider.Initialize();  
+                        }
+                        
         	}
                 
                 public override Task OnConnected()
                 {
                     Console.WriteLine("Client Connected!");
                     return Task.Delay(1);
-                }
-        	
-        	private void Publish()
-                {
-                    while (true)
-                    {
-                        Thread.Sleep(1000);
-                        Clients.All.updateStockPrice(_viewRepo.GetBySecView());                        
-                    }
-                }
-        		
-        	public IEnumerable<ViewResponse> GetAllStocks()
-                {
-                    return _viewRepo.GetBySecView();
                 }
                 
                 public void Notify(ViewResponse response)
