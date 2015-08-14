@@ -2,8 +2,6 @@ using System;
 using Microsoft.AspNet.Builder;
 using Microsoft.AspNet.Http;
 using Microsoft.Framework.DependencyInjection;
-using Tick.Repository;
-using Tick.Cache;
 
 public class Startup
 {
@@ -29,10 +27,5 @@ public class Startup
                 options.Hubs.EnableDetailedErrors = true;
                 options.Transports.TransportConnectTimeout = TimeSpan.FromSeconds(50);
             });
-          
-        services.AddSingleton<ISymbolCache, SymbolCache>();
-        services.AddSingleton<IPositionCache, PositionCache>();
-        services.AddSingleton<IPriceCache, PriceCache>();
-        services.AddSingleton<IViewRepository, ViewRepository>();
     }
 }

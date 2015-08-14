@@ -5,7 +5,6 @@ using System.Threading.Tasks;
 using System.Threading;
 using Microsoft.AspNet.SignalR;
 using Microsoft.AspNet.SignalR.Hubs;
-using Tick.Repository;
 using Tick.Response;
 using Tick.Rx;
 
